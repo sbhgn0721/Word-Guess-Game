@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Inline|Monoton|Shojumaru|Sniglet" rel="stylesheet">
-        <link rel="javascript" type="text/javascript" href="assets/javascript/game.js">
     </head>
     <body>
         <h1>Word Guess Game For Children</h1>
@@ -21,20 +20,21 @@
                     <div class="card-body">
                       <h5 class="card-title blue-text">PRESS ANY KEY TO GET STARTED</h5>
                       <p class="card-text blue-text">WINS</p>
-                      <p class="card-text pink-text">numbers of wins</p>
+                      <p id="winCount" class="card-text pink-text">numbers of wins</p>
                       <p class="card-text blue-text">CURRENT WORD</p>
-                      <p class="card-text pink-text">correct letters</p>
+                      <p id="correctLetter" class="card-text pink-text"></p>
+                      <p></p>
                       <p class="card-text blue-text">NUMBER OF GUESSES REMAINING </p>
-                      <p class="card-text pink-text">numbers of guesses remaining</p>
+                      <p id="guessRemain" class="card-text pink-text">numbers of guesses remaining</p>
                       <p class="card-text blue-text">LETTRES ALREADY GUESSED</p>
-                      <p class="card-text pink-text">wrong letters</p>
+                      <p id="wrongLetter" class="card-text pink-text">wrong letters</p>
 
                       
                     </div>
                 </div>
             </div>
         </div>
-
+        <script src="assets/myjavascript/game.js"></script>
     </body>
 
 </html>

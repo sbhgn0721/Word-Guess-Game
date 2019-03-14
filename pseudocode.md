@@ -1,4 +1,4 @@
-create html
+create html, and give the
 add some css and link it to the html
 add some javascript and link it to html
 create some variables to display the changes: 
