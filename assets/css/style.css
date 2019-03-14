@@ -1,0 +1,51 @@
+body {
+    background: url("../images/memphis-colorful.png")
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: #e2d57c;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: #e2d57c;
+}
+
+
+.card {
+    width: 800px;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: auto;
+}
+
+.card-img {
+    margin-top: 125px;
+    max-width: 265px;
+    
+}
+
+.card-title {
+    font-family: 'Black Ops One', cursive;
+
+}
+
+.card-text {
+    font-family: 'Black Ops One', cursive;
+}
+
+.blue-text {
+    color: #89cff0;
+}
+
+.pink-text {
+    color: #ffb6c1;
+}
+
